@@ -1,0 +1,17 @@
+# Build output
+/bin/
+jev-sec-bench
+*.test
+*.out
+
+# Cached dataset pulls. Delete to refetch from the Hugging Face datasets server.
+/cache/
+
+# Local environment
+.env
+.envrc
+
+# Editors
+.DS_Store
+.idea/
+.vscode/
